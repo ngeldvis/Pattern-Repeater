@@ -14,12 +14,12 @@ def main() -> None:
         print('ERROR: invalid input, try again')
         return
 
-    src_path = input('Enter image file: ')
+    src_path = input('Enter image source file: ')
     if not src_path:
         print('ERROR: invalid filename, try again')
         return
 
-    filename = input('Enter new file name: ')
+    filename = input('Enter new image file name: ')
     if not filename:
         print('ERROR: invalid filename, try again')
         return
