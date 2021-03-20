@@ -16,7 +16,7 @@ the program will ask for the following:
 ### Example ###
 
 **Input:** 
-![alt text](rsc/exInput.png) 
+![Example Input](rsc/exInput.png) 
 
 **Output:**
- ![alt text](rsc/exOutput.png)
+ ![Example Output](rsc/exOutput.png)
