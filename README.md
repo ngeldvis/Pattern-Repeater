@@ -15,8 +15,8 @@ the program will ask for the following:
 
 ### Example ###
 
-**Input:** <br>
+**Input:** 42 x 42 <br>
 ![Example Input](rsc/exInput.png) 
 
-**Output:** <br>
+**Output:** 960 x 540 <br>
  ![Example Output](rsc/exOutput.png)
