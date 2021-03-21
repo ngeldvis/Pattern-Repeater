@@ -19,6 +19,13 @@ def main() -> None:
         print('ERROR: invalid filename, try again')
         return
 
+    try:
+        scale = float(input('Enter Scale (Default=1): '))
+    except:
+        print('ERROR: invalid scale value, using default value')
+        scale = 1
+
+
     filename = input('Enter new image file name: ')
     if not filename:
         print('ERROR: invalid filename, try again')
@@ -36,6 +43,7 @@ def main() -> None:
     # Open source image
 
     src = cv.imread(src_path, color_channel)
+    src = cv.resize(src, (0, 0), fx=scale, fy=scale)
 
     src_height = src.shape[0]
     src_width = src.shape[1]
