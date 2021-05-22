@@ -1,3 +1,5 @@
+# Pattern Repeater
+
 Python program that repeats a given image over some given image size
 
 ### Usage ###
